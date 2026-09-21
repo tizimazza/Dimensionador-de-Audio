@@ -1,0 +1,8 @@
+{
+  "name": "Plugin dimensionador de alto falante",
+  "description": "Calculador e orientador técnico para instaladores e integradores de áudio e vídeo. Recomenda alto falantes e amplificadores para um determinado tamanho e tipo de ambiente.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

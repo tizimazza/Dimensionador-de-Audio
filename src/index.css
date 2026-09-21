@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+/* Custom Discabos brand & clean minimalist styling tokens */
+:root {
+  --discabos-navy: #0B2545;
+  --discabos-blue: #003B71;
+  --discabos-cyan: #00A3E0;
+  --discabos-royal: #0072CE;
+  --discabos-orange: #F37021;
+  --discabos-dark: #071526;
+  --bg-clean: #f8f9fa;
+  --border-clean: #e5e7eb;
+}
+
+/* Crisp subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+}
